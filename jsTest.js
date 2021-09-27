@@ -82,11 +82,3 @@ document.addEventListener('keydown', event => {
     dx = 0;
 	}
 }
-
-  function x () {
-  	return Math.floor(Math.random() * 32);
-  }
-
-  function y () {
-  	return Math.floor(Math.random() * 16);
-  }
