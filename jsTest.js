@@ -51,7 +51,7 @@ function draw() {
 }
 
 function main () {
-  setTime(function game() => {
+  setTime(function game() {
     clear();
     move();
     draw();
@@ -59,7 +59,7 @@ function main () {
 }
 
 function fruit () {
-  
+
 }
 
 document.addEventListener('keydown', event => {
