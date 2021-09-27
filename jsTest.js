@@ -19,8 +19,12 @@ function resizeCanvas() {
   } else {
   	d = Math.floor(window.innerWidth/32);
   }
-  arr_x = window.innerWidth;
-  arr_y = window.innerHeight;
+
+  arr_x = d*16;
+  arr_y = d*32;
+
+  //arr_x = window.innerWidth;
+  //arr_y = window.innerHeight;
 
 	canvas.width = arr_x;
 	canvas.height = arr_y;
