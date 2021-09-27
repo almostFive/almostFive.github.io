@@ -62,6 +62,8 @@ function main () {
   }, 100);
 }
 
+main();
+
 function fruit () {
 
 }
