@@ -81,4 +81,4 @@ document.addEventListener('keydown', event => {
 		dy = -1;
     dx = 0;
 	}
-}
+});
