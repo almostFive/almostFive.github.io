@@ -8,10 +8,8 @@ let dx,dy,d;
 let snake = [{x: 16, y: 8}];
 let arr = Array.from({length: 32}, () => Array.from({length: 16}, () => 0));
 
-() => {
-  window.addEventListener('resize', resizeCanvas, false);
-  resizeCanvas();
-}
+window.addEventListener('resize', resizeCanvas, false);
+resizeCanvas();
 
 function resizeCanvas() {
   if (window.innerHeight < (2 * window.innerWidth)) {
