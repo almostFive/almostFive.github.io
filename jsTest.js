@@ -57,6 +57,7 @@ function main () {
     clear();
     move();
     draw();
+    console.log('looping!');
   }, 100);
 }
 
