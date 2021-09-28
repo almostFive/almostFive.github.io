@@ -55,7 +55,7 @@ function draw() {
 }
 
 function main () {
-  setTime(function game() {
+  setTimeout(function game() {
     clear();
     move();
     draw();
