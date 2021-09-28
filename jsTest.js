@@ -4,7 +4,7 @@ const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
 
-let dx,dy,d;
+let dx,dy,d, arr_x, arr_y;
 let snake = [{x: 16, y: 8}];
 let arr = Array.from({length: 32}, () => Array.from({length: 16}, () => 0));
 
