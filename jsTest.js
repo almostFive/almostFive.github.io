@@ -58,6 +58,7 @@ function main () {
     move();
     draw();
     console.log('looping!');
+    main();
   }, 100);
 }
 
